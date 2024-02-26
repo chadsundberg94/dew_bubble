@@ -7,6 +7,7 @@ from bs4 import BeautifulSoup
 def get_response(url):
     return get(url).content
 
+
 def get_htmltable(Name):
 
     # We treat the url attaching the Name variable to it.
