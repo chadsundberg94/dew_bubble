@@ -7,7 +7,8 @@ from bs4 import BeautifulSoup
 def get_response(url):
     return get(url).content
 
-def get_html_Table(Name):
+
+def get_htmltable(Name):
 
     # We treat the url attaching the Name variable to it.
     url = str.format('https://webbook.nist.gov/cgi/cbook.cgi?Name={0}&Mask=4',
