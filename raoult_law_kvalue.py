@@ -20,7 +20,7 @@ def raoult_law_kvalue( T, P, a, *gamma):
     #             Parameter should be inputted as the first letter of the temperature scale.
     #             
     #
-    # OUTPUT:
+    # Getting OUTPUT:
     #
     #  K - row vector containing the K-value for each species
     #
