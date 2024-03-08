@@ -17,7 +17,7 @@ def get_html_Table(Name):
     raw_html = get_response(url)
 
     # Parse the html using BeautifulSoup.
-    html = BeautifulSoup(raw_html, 'html.parser')
+    html =BeautifulSoup(raw_html, 'html.parser')
 
     # Extract the table that contains the data, the table has a specific
     # attributes 'aria-label' as 'Antoine Equation Parameters'.
